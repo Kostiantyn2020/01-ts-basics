@@ -11,3 +11,4 @@ const product: product = {
 };
 
 console.log(`Product: ${JSON.stringify(product)}`);
+
