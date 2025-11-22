@@ -1,7 +1,6 @@
 function logStatus(
-  status: "loading" | "success" | "error" // дозволені тільки ці значення
+  status: "loading" | "success" | "error"
 ): void {
-  // функція нічого не повертає
   if (status === "loading") {
     console.log("Loading...");
   } else if (status === "success") {
@@ -12,5 +11,5 @@ function logStatus(
 }
 
 logStatus("loading"); // OK
-// logStatus("other"); // ❌ помилка — значення не дозволене
+// logStatus("other"); // ❌ помилка
 logStatus("success"); // OK

@@ -1,9 +1,8 @@
 function printUserInfo(
   name: string,
   age: number,
-  email?: string // опціональний параметр
+  email?: string
 ): void {
-  // функція нічого не повертає
   console.log("Name:", name);
   console.log("Age:", age);
   if (email) {

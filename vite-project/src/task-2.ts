@@ -1,7 +1,7 @@
 interface product {
-  readonly id: number; // тільки для читання
+  readonly id: number;
   title: string;
-  description?: string; // необов'язкове поле
+  description?: string;
 }
 
 const product: product = {
@@ -11,4 +11,3 @@ const product: product = {
 };
 
 console.log(`Product: ${JSON.stringify(product)}`);
-
